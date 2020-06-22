@@ -1,8 +1,60 @@
-div {
-    border-bottom: 1px solid rgb(204,204,204);
-	color: rgb(187,187,187);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 50px;
+body{
+	font-family: 'Segoe UI';
+	color: rgb(179,179,179);
+	
+	
+}
+	
+.texto_home{
+	font-size: 52px;
+	color: white;
+	padding-top: 80px;
+	line-height: 180%;
+	
 }
 
+.sec01{
+	background-image: url(./img/home.jpg);
+	
+	
+	height: 900px;
+	width: 100%;
+}
+nav a {
+	text-decoration: none;
+	color: rgb(170,170,170);
+}
+.barra_superior {
+
+    border-bottom: 1px solid rgb(170,170,170);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.container {
+
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+.clearfix{
+	clear: both;
+}
+nav{
+	padding-top: 45px;
+	padding-right: 90px;
+	float: right;
+}
+
+.img_logo{
+	border: 1px solid rgb(170,170,170);
+}
+.line3_home{
+	padding-left: 100px;
+}
+.line2_home{
+	padding-left: 100px;
+}
